@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/spotify.js", "pages/api/auth/[...nextauth].jx", "pages/api/auth/[...nextauth].js", "hooks/useSpotify.js", "components/Sidebar.jsx"],
   "exclude": ["node_modules"]
 }
